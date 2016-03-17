@@ -1,5 +1,1 @@
-import Person from './person';
-
-let person = new Person('Thiago');
-
-console.log(person.sayHello());
+import Vector3D from './Vector3D';
