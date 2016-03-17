@@ -6,12 +6,19 @@ export default class Vector3f {
     this.z = z;
   }
 
-  length() {
+  magnitude() {
     return Math.sqrt(
       this.x * this.x +
       this.y * this.y +
       this.z * this.z
     );
+  }
+
+  normalize() {
+    const magnitude = this.magnitude();
+    this.x /= magnitude;
+    this.y /= magnitude;
+    this.z /= magnitude;
   }
 
 }

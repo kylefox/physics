@@ -9,9 +9,15 @@ describe('Vector3f', () => {
     expect(vector.z).toEqual(3.0);
   });
 
-  it('should have a length', () => {
+  it('should have a magnitude (length)', () => {
     const vector = new Vector3f(1, 2, 3);
-    expect(vector.length()).toEqual(3.7416573867739413);
+    expect(vector.magnitude()).toEqual(3.7416573867739413);
+  });
+
+  it('can be normalized', () => {
+    const vector = new Vector3f(1, 2, 3);
+    vector.normalize();
+    expect(vector.magnitude()).toEqual(1.0);
   });
 
 });
