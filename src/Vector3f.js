@@ -1,4 +1,4 @@
-export default class Vector3D {
+export default class Vector3f {
 
   constructor(x, y, z) {
     this.x = x;
