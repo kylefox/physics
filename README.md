@@ -4,28 +4,23 @@ Messing around with random physics & math concepts JUST BECAUSE.
 
 Install dependencies:
 
-```
-npm install
-```
+    npm install
 
 Run the LiveReload server:
 
-```
-gulp
-```
+    gulp
 
 Run the tests:
 
-```
-gulp test
-```
-
+    gulp test
 
 Or, have the test automatically run while you make changes:
 
-```
-gulp tdd
-```
+    gulp tdd
+
+Generate [JSDoc](http://usejsdoc.org/) documentation to `./docs/`:
+
+    npm run docs
 
 # Resources
 
