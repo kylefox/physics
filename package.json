@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "gulp test",
     "docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
   },
   "author": "",
